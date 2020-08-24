@@ -63,6 +63,7 @@ def play(songs)
 
     if user_responce == "exit"
         return user_responce
+    end
 
     if  songs[user_responce.to_i].nil? != nil
         puts "Playing " + songs[user_responce.to_i]
