@@ -82,7 +82,7 @@ def exit_jukebox
 
 end
 
-def running(songs) 
+def run(songs) 
 
     user_responce = "first run" 
 
@@ -110,5 +110,6 @@ def running(songs)
     end
 
 end
+
 
 
