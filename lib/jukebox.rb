@@ -60,7 +60,6 @@ end
 def play(songs) 
 
     user_responce = prompt_play
-    user_responce = user_responce.to_i
     
     if user_responce == 0 
       
@@ -73,7 +72,7 @@ def play(songs)
         return user_responce
     end
 
-    if  songs[user_responce.to_i].nil? != nil
+    if  songs[user_responce.to_i].nil? != nil && songs[user_responce.to_i] != 0
         puts "Playing " + songs[user_responce.to_i]
     elsif songs.include?(user_responce) 
         puts "Playing " + user_responce
