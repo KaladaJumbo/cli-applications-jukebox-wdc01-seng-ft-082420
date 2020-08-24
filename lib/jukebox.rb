@@ -101,6 +101,7 @@ def run(songs)
             help
         when "list"
             user_responce = "loop"
+            list(songs)
         else 
             user_responce = "loop"
             puts "Invalid input, please try again"
