@@ -62,7 +62,11 @@ def play(songs)
     user_responce = prompt_play
     user_responce = user_responce.to_i
     
-    if user_responce == "exit"
+    if user_responce == 0 
+      
+      
+    
+    if user_responce == "exit" 
         return user_responce
     end
 
