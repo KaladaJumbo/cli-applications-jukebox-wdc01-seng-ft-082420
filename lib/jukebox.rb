@@ -66,6 +66,8 @@ def play(songs)
       
       puts "Invalid input, please try again"
       return "loop"
+      
+    end
     
     if user_responce == "exit" 
         return user_responce
