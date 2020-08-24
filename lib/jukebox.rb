@@ -37,7 +37,7 @@ end
 def help
 
     puts    "I accept the following commands:"
-    puts    "- help : display this help message"
+    puts    "- help : displays this help message"
     puts    "- list : display a list of sons you can play"
     puts    "- play : lets you chooce a song to play"
     puts    "- exit : exits this program"
@@ -50,7 +50,7 @@ def list(songs)
 
     songs.each do |value| 
 
-        puts ".#{counter} " + value
+        puts "#{counter}. " + value
         counter += 1
 
     end
