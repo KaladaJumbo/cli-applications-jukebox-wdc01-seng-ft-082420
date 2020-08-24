@@ -27,7 +27,7 @@ end
 
 def prompt_play 
 
-    puts "Please enter a song name or track number: "
+    puts "Please enter a song name or number:"
     input = gets.strip
 
     return input 
