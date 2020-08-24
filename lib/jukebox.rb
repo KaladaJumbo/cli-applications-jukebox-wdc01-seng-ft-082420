@@ -73,7 +73,7 @@ def play(songs)
     end
 
     if  songs[user_responce.to_i].nil? != nil && songs[user_responce.to_i] != 0
-        puts "Playing " + songs[user_responce.to_i]
+        puts "Playing #{songs[user_responce.to_i]}"
     elsif songs.include?(user_responce) 
         puts "Playing #{user_responce}"
     else
