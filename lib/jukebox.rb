@@ -92,7 +92,8 @@ def run(songs)
 
         case user_responce
         when "play"
-            user_responce = play(songs)
+            user_responce = "loop"
+            play(songs)
         when "exit"
             user_responce = "exit"
             exit_jukebox
