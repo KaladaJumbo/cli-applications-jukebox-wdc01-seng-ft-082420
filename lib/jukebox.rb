@@ -64,7 +64,8 @@ def play(songs)
     
     if user_responce == 0 
       
-      
+      puts 
+      return "loop"
     
     if user_responce == "exit" 
         return user_responce
