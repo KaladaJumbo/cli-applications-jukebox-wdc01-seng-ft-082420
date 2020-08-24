@@ -18,14 +18,14 @@ end
 
 def prompt 
 
-    puts "Please enter a command: "
+    puts "Please enter a command:"
     input = gets.strip
 
     return input 
 
 end
 
-def prompt 
+def prompt_play 
 
     puts "Please enter a song name or track number: "
     input = gets.strip
